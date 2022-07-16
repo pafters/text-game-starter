@@ -1,0 +1,47 @@
+.outerDiv {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    top: 40px;
+}
+
+#buttonsOutput {
+    display: flex;
+    position: fixed;
+    bottom: 10vh;
+    width: 50vw;
+    left: 40%;
+    right: 50%;
+}
+
+p {
+    margin-top: 10px;
+}
+
+#output {
+    position: relative;
+    margin: auto;
+    height: 60vh;
+    max-height: 60vh;
+    text-align: center;
+    width: 60vw;
+    border: solid 5px #e59c00;
+    top: 0px;
+    font-size: 18px;
+    overflow-y:auto;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ffffff;
+    margin: 5px;
+}
+
+button:active {
+    background-color: #f4f4f4;
+}
+
+#btnsOuterDiv {
+    align-items: center;
+}
